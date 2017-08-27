@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DIFYZ/calendar.git"
+    "url": "git+https://github.com/DIFYZ/js-calendar.git"
   },
   "keywords": [
     "frontend",
@@ -17,9 +17,9 @@
   "author": "ivan mytsak",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DIFYZ/calendar/issues"
+    "url": "https://github.com/DIFYZ/js-calendar.git/issues"
   },
-  "homepage": "https://github.com/DIFYZ/calendar#readme",
+  "homepage": "https://github.com/DIFYZ/js-calendar.git#readme",
   "dependencies": {
     "requirejs": "^2.3.4"
   },
