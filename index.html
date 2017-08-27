@@ -1,0 +1,21 @@
+<html>
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+</head>
+ <body>
+   
+    <div id="my-calendar">calendar</div>
+    
+    <script>
+    var require = {
+        deps: ["modules/calendar"],
+        callback: function(calendar) {
+           calendar.init("my-calendar");
+        }
+    };
+  </script>
+  <script data-main="assets/js/main" src="node_modules/requirejs/require.js"></script>
+ 
+ </body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "js-calendar",
+  "version": "1.0.0",
+  "description": "simple js calendar",
+  "main": "assets/js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DIFYZ/calendar.git"
+  },
+  "keywords": [
+    "frontend",
+    "js"
+  ],
+  "author": "ivan mytsak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DIFYZ/calendar/issues"
+  },
+  "homepage": "https://github.com/DIFYZ/calendar#readme",
+  "dependencies": {
+    "requirejs": "^2.3.4"
+  },
+  "devDependencies": {}
+}
