@@ -1,6 +1,6 @@
 <h1>Simple js calendar</h1>
 
-1.Please install requirejs use (npm install requirejs) or (bower install requirejs);
+1.Please install requirejs use (npm install requirejs);
 
 2.Then add this code to your index.html :
 
