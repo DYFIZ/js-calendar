@@ -2,7 +2,7 @@
   "name": "js-calendar",
   "version": "1.0.0",
   "description": "simple js calendar",
-  "main": "assets/js/main.js",
+  "main": "assets/js/calendar.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,8 +20,5 @@
     "url": "https://github.com/DIFYZ/js-calendar.git/issues"
   },
   "homepage": "https://github.com/DIFYZ/js-calendar.git#readme",
-  "dependencies": {
-    "requirejs": "^2.3.4"
-  },
   "devDependencies": {}
 }
