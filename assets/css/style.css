@@ -1,82 +1,47 @@
-/* Styles go here */
-
-*{
-  margin:0px;
-  padding:0px;
+@font-face {
+    font-family: "Maven Pro Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/MavenPro-Regular.eot');
+    src: local('Maven Pro Regular'), local('Maven Pro Regular'), url('../fonts/MavenPro-Regular.ttf') format('truetype'), url('../fonts/MavenPro-Regular.eot') format('embedded-opentype'), url('../fonts/MavenPro-Regular.woff') format('woff');
 }
 
- body{
-  width:90%;
-  font-size:100%/1.5em Helvetica,sans-serif;
-  color:#000;
+.calendar {
+    background-color: rgb(242, 242, 242);
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Maven Pro Regular";
+    color: rgb(96, 130, 187);
 }
 
-
-#container{
-  margin:10px auto;
-  padding:15px;
-  max-width: 320px;
-  width:170px;
-  height:195px;
-  background-color:#484848;
-  border-radius: 5px;
+.button {
+    cursor: pointer;
+    font-family: "Maven Pro Regular";
+    background-color: #106ba1;
+    padding: 7px 10px 8px 10px;
+    color: #fff;
+    border-radius: 4px;
+    margin-bottom:15px;
+    font-size: 18px;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
 }
 
-
-#caption span{
- display:block;
- padding:10px 0px;
- color:#fff;
- font-weight: bold;
- font-size:14px;
+footer{
+	position:absolute;
+    font-size: 13px;
+    background-color: #106ba1;
+	color:#fff;
+	bottom:30%;
+	width:95%;
+}
+.month--inline,.year--inline{
+	display:inline-block;
+	width:25%;
 }
 
-#month{
-  width:95px;
-}
-
-#pre_m,#next_m,#_month,#month,#pre_y,#next_y,#_year,#year{
-  display:inline-block;
-  color:#fff; 
-}
-
-#pre_m,#pre_y{
-  border:solid 1px;
-  border-color:transparent;
-  background: url('../img/btn_pre.png') no-repeat;
-  width:10px;
-  height:10px;
-  vertical-align: middle;
-}
-
-#_month,#_year,#dates{
-  font-size: 12px;
-  text-align: center;
-}
-
-#_month{
-  width:50px;
-}
-
-#next_m,#next_y{
-  border:solid 1px;
-  border-color:transparent;
-  background: url('../img/btn_next.png') no-repeat;
-  width:10px;
-  height: 10px;
-  vertical-align: middle;
-}
-
-#year{
-  width:66px;
-}
-
-#pre_m:hover,#next_m:hover,#pre_y:hover,#next_y:hover{
-  cursor: pointer;
-  border:solid 1px #fff;
-}
-
-#dates{
- color:#fff; 
- padding:10px 0px;
+.dates th, td {
+  padding: 5px;
+  text-align: left;
 }
