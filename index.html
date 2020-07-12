@@ -1,21 +1,13 @@
+<!DOCTYPE html>
 <html>
-<head>
-   <meta charset="UTF-8">
-   <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
-</head>
- <body>
-   
-    <div id="my-calendar">calendar</div>
-    
-    <script>
-    var require = {
-        deps: ["modules/calendar"],
-        callback: function(calendar) {
-           calendar.init("my-calendar");
-        }
-    };
-  </script>
-  <script data-main="assets/js/main" src="node_modules/requirejs/require.js"></script>
- 
- </body>
+    <head>
+        <title>I&K calendar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <link href="assets/css/styles.css" rel="stylesheet" />
+	    <script defer src="assets/js/calendar.js"></script>
+    </head>
+    <body>
+        <div class="calendar">calendar</div>
+    </body>
 </html>
